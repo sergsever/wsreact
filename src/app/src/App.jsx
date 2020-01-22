@@ -1,10 +1,17 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-class App extends React.Component {
+console.log("before comp");
+
+export default class App extends React.Component {
 
     render() {
-        return <p>Hello, World!</p>
+        console.log("An App render");
+        return <h1>Hello from React</h1>
     }
 }
+
+
+
+console.log("before dom");
 ReactDom.render(<App />, document.getElementById('react'));

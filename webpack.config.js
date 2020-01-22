@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/app/src/App.jsx",
   output: {
-    path: path.join(__dirname, "./src/webapp/WEB-INF/js/dist/"),
+    path: path.join(__dirname, "./src/webapp/resources/js/dist/"),
     filename: "App_bundle.js"
   },
   resolve: {
